@@ -1,0 +1,8 @@
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\eduar\source\repos\TradePlatformTestApp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb

@@ -1,0 +1,11 @@
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\eduar\source\repos\TradePlatformTestApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

@@ -1,0 +1,94 @@
+﻿@model TradePlatformTestApp.Models.AddEditProductModel
+
+@using TradePlatformTestApp.Extensions
+
+@{
+    ViewData["Title"] = "Создание товара";
+}
+
+<div class="row">
+    <div class="col-8">
+        <h4>@(Model.Id > 0 ? "Редактирование товара" : "Добавление товара")</h4>
+    </div>
+    <div class="col-4">
+        <a class="btn btn-primary float-right" href="/Home/Index" style="margin:5px;">
+            <span class="d-none d-md-inline ml-1">Отмена</span>
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form method="POST" asp-action="AddEdit" class="form-horizontal no-repeated-submit" asp-antiforgery="true" role="form" enctype="multipart/form-data">
+            @Html.HiddenFor(x => x.Id)
+
+            @Html.ValidationSummaryAlert(Model.GetType())
+
+            <div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="Name"></label>
+                        <input class="form-control" type="text" asp-for="Name" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="Description"></label>
+                        <input class="form-control" asp-for="Description" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="Cost"></label>
+                        <input class="form-control" type="number" min="0" asp-for="Cost" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="Phone"></label>
+                        <input class="form-control" asp-for="Phone" />
+                    </div>
+                </div>
+
+                <hr />
+
+                <p class="text-muted">Категория и платный статус</p>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="ProductCategoryId"></label>
+                        <select class="form-control" asp-for="ProductCategoryId" asp-items="Model.AllProductCategories"></select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="ProductStatusId"></label>
+                        <select class="form-control" asp-for="ProductStatusId" asp-items="Model.AllProductStatuses"></select>
+                    </div>
+                </div>
+
+                <hr />
+                <p class="text-muted">Фотографии товара</p>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="FirstPhoto"></label>
+                        @Html.EditorFor(m => m.FirstPhoto, new { accept = "image/*" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-line">
+                        <label class="form-label control-label" asp-for="SecondPhoto"></label>
+                        @Html.EditorFor(m => m.SecondPhoto, new { accept = "image/jpeg" })
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" value="Сохранить" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
